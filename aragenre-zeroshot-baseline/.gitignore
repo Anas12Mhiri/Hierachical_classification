@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# generated predictions & data
+baseline_outputs/*
+!baseline_outputs/.gitkeep
+data/
+*.log
