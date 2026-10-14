@@ -4,7 +4,7 @@ from pathlib import Path
 
 DATA_DIR = Path(os.environ.get(
     "ARAGENRE_DATA_DIR",
-    "/kaggle/input/datasets/anasmhiri/aragenre/public_data_train_dev",
+    "/kaggle/input/datasets/aragenre/public_data_train_dev",
 ))
 OUT_DIR = Path(os.environ.get("ARAGENRE_OUT_DIR", "baseline_outputs"))
 
